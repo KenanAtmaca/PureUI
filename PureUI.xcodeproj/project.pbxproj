@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8A7131251EFF17E2001EDECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131241EFF17E2001EDECF /* AppDelegate.swift */; };
-		8A7131271EFF17E2001EDECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131261EFF17E2001EDECF /* ViewController.swift */; };
 		8A71312A1EFF17E2001EDECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7131281EFF17E2001EDECF /* Main.storyboard */; };
 		8A71312C1EFF17E2001EDECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A71312B1EFF17E2001EDECF /* Assets.xcassets */; };
 		8A71312F1EFF17E2001EDECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A71312D1EFF17E2001EDECF /* LaunchScreen.storyboard */; };
+		8A7131371EFF1866001EDECF /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131361EFF1866001EDECF /* testVC.swift */; };
+		8A71313A1EFF18D6001EDECF /* PUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131391EFF18D6001EDECF /* PUIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A7131211EFF17E2001EDECF /* PureUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7131241EFF17E2001EDECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A7131261EFF17E2001EDECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A7131291EFF17E2001EDECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A71312B1EFF17E2001EDECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A71312E1EFF17E2001EDECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A7131301EFF17E2001EDECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7131361EFF1866001EDECF /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		8A7131391EFF18D6001EDECF /* PUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,9 @@
 			children = (
 				8A7131231EFF17E2001EDECF /* PureUI */,
 				8A7131221EFF17E2001EDECF /* Products */,
+				8A7131281EFF17E2001EDECF /* Main.storyboard */,
+				8A7131361EFF1866001EDECF /* testVC.swift */,
+				8A7131381EFF1897001EDECF /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +60,19 @@
 			isa = PBXGroup;
 			children = (
 				8A7131241EFF17E2001EDECF /* AppDelegate.swift */,
-				8A7131261EFF17E2001EDECF /* ViewController.swift */,
-				8A7131281EFF17E2001EDECF /* Main.storyboard */,
 				8A71312B1EFF17E2001EDECF /* Assets.xcassets */,
 				8A71312D1EFF17E2001EDECF /* LaunchScreen.storyboard */,
 				8A7131301EFF17E2001EDECF /* Info.plist */,
 			);
 			path = PureUI;
+			sourceTree = "<group>";
+		};
+		8A7131381EFF1897001EDECF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8A7131391EFF18D6001EDECF /* PUIButton.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7131271EFF17E2001EDECF /* ViewController.swift in Sources */,
+				8A71313A1EFF18D6001EDECF /* PUIButton.swift in Sources */,
+				8A7131371EFF1866001EDECF /* testVC.swift in Sources */,
 				8A7131251EFF17E2001EDECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -257,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -271,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2B24WNBC56;
 				INFOPLIST_FILE = PureUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenanatmaca.PureUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2B24WNBC56;
 				INFOPLIST_FILE = PureUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenanatmaca.PureUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
