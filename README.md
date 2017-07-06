@@ -1,5 +1,5 @@
 # PureUI
-Simple pure design iOS form components
+Simple pure designable iOS form components
 
 ![alt tag](https://user-images.githubusercontent.com/16580898/27935286-cedbdc3e-62b2-11e7-989b-707a960b066e.png)
 
