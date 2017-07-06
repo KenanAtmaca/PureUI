@@ -7,7 +7,8 @@ Simple pure design iOS form components
 ![iOS 9.0+](https://img.shields.io/badge/İOS-9.0%2B-brightgreen.svg)
 ![Swift 3.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)
 [![License](https://img.shields.io/cocoapods/l/Hero.svg?style=flat)](https://github.com/lkzhao/Hero/blob/master/LICENSE?raw=true)
-[![@uikenan](https://img.shields.io/badge/contact-%40uikenan-ff69b4.svg)](http://twitter.com/uikenan)
+[![@uikenan](https://img.shields.io/badge/twitter-%40uikenan-red.svg)](http://twitter.com/uikenan)
+[![contact](https://img.shields.io/badge/contact-www-orange.svg)](http://kenanatmaca.com)
 
 ## Advantages
 - [X] Simply use.
