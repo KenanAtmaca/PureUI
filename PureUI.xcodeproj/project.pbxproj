@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC9B3BC1F0CEF9000229145 /* PUIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9B3BB1F0CEF9000229145 /* PUIText.swift */; };
+		6EE5B4F41F0E4A78002C2D81 /* PUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5B4F31F0E4A78002C2D81 /* PUILabel.swift */; };
 		8A7131251EFF17E2001EDECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131241EFF17E2001EDECF /* AppDelegate.swift */; };
 		8A71312A1EFF17E2001EDECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7131281EFF17E2001EDECF /* Main.storyboard */; };
 		8A71312C1EFF17E2001EDECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A71312B1EFF17E2001EDECF /* Assets.xcassets */; };
 		8A71312F1EFF17E2001EDECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A71312D1EFF17E2001EDECF /* LaunchScreen.storyboard */; };
 		8A7131371EFF1866001EDECF /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131361EFF1866001EDECF /* testVC.swift */; };
 		8A71313A1EFF18D6001EDECF /* PUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7131391EFF18D6001EDECF /* PUIButton.swift */; };
+		8AFA4C081EFFD29B00F45519 /* Exs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA4C071EFFD29B00F45519 /* Exs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EC9B3BB1F0CEF9000229145 /* PUIText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUIText.swift; sourceTree = "<group>"; };
+		6EE5B4F31F0E4A78002C2D81 /* PUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUILabel.swift; sourceTree = "<group>"; };
 		8A7131211EFF17E2001EDECF /* PureUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7131241EFF17E2001EDECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A7131291EFF17E2001EDECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		8A7131301EFF17E2001EDECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A7131361EFF1866001EDECF /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
 		8A7131391EFF18D6001EDECF /* PUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUIButton.swift; sourceTree = "<group>"; };
+		8AFA4C071EFFD29B00F45519 /* Exs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,10 @@
 		8A7131381EFF1897001EDECF /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8AFA4C071EFFD29B00F45519 /* Exs.swift */,
 				8A7131391EFF18D6001EDECF /* PUIButton.swift */,
+				6EC9B3BB1F0CEF9000229145 /* PUIText.swift */,
+				6EE5B4F31F0E4A78002C2D81 /* PUILabel.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -148,7 +157,10 @@
 			files = (
 				8A71313A1EFF18D6001EDECF /* PUIButton.swift in Sources */,
 				8A7131371EFF1866001EDECF /* testVC.swift in Sources */,
+				8AFA4C081EFFD29B00F45519 /* Exs.swift in Sources */,
+				6EC9B3BC1F0CEF9000229145 /* PUIText.swift in Sources */,
 				8A7131251EFF17E2001EDECF /* AppDelegate.swift in Sources */,
+				6EE5B4F41F0E4A78002C2D81 /* PUILabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +206,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -249,6 +263,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -287,7 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenanatmaca.PureUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,7 +318,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenanatmaca.PureUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -326,6 +342,7 @@
 				8A7131351EFF17E2001EDECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
